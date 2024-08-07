@@ -43,3 +43,11 @@ C:\Users\kvist\Documents\GitHub\tomtemplateapi-MdotKvist\BlazorApp\BlazorApp\bin
 C:\Users\kvist\Documents\GitHub\tomtemplateapi-MdotKvist\BlazorApp\BlazorApp\bin\Debug\net8.0\BlazorDebugProxy\Microsoft.SymbolStore.dll
 C:\Users\kvist\Documents\GitHub\tomtemplateapi-MdotKvist\BlazorApp\BlazorApp\bin\Debug\net8.0\BlazorDebugProxy\Newtonsoft.Json.dll
 C:\Users\kvist\Documents\GitHub\tomtemplateapi-MdotKvist\BlazorApp\BlazorApp\bin\Debug\net8.0\Microsoft.AspNetCore.Components.WebAssembly.Server.dll
+C:\Users\kvist\Documents\GitHub\tomtemplateapi-MdotKvist\BlazorApp\BlazorApp\bin\Debug\net8.0\Blazor-ApexCharts.dll
+C:\Users\kvist\Documents\GitHub\tomtemplateapi-MdotKvist\BlazorApp\BlazorApp\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\kvist\Documents\GitHub\tomtemplateapi-MdotKvist\BlazorApp\BlazorApp\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
+C:\Users\kvist\Documents\GitHub\tomtemplateapi-MdotKvist\BlazorApp\BlazorApp\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\kvist\Documents\GitHub\tomtemplateapi-MdotKvist\BlazorApp\BlazorApp\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\kvist\Documents\GitHub\tomtemplateapi-MdotKvist\BlazorApp\BlazorApp\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\kvist\Documents\GitHub\tomtemplateapi-MdotKvist\BlazorApp\BlazorApp\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\kvist\Documents\GitHub\tomtemplateapi-MdotKvist\BlazorApp\BlazorApp\bin\Debug\net8.0\Microsoft.JSInterop.dll

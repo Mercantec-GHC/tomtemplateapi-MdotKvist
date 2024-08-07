@@ -1,39 +1,37 @@
-﻿@* @page "/charts"
-@inject IJSRuntime JS
+﻿@page "/charts"
+@using ApexCharts
 
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<script src="Charts.js"></script>
+<ApexChart TItem="MyData"
+           Title="Sample Data">
 
-<div class="container mt-5">
-    <h2>Plotly Chart Example</h2>
-    <div id="plotlyChart" style="width: 100%; height: 500px;"></div>
-</div>
+    <ApexPointSeries TItem="MyData"
+                     Items="Data"
+                     Name="Net Profit"
+                     SeriesType="SeriesType.Bar"
+                     XValue="e => e.Category"
+                     YValue="e=> e.NetProfit" />
+
+    <ApexPointSeries TItem="MyData"
+                     Items="Data"
+                     Name="Revenue"
+                     SeriesType="SeriesType.Bar"
+                     XValue="e => e.Category"
+                     YValue="e=> e.Revenue" />
+</ApexChart>
 
 @code {
-    private List<DataItem> Data = new List<DataItem>
+    private List<MyData> Data { get; set; } = new();
+    protected override void OnInitialized()
     {
-        new DataItem { Month = "January", Value = 12 },
-        new DataItem { Month = "February", Value = 19 },
-        new DataItem { Month = "March", Value = 3 },
-        new DataItem { Month = "April", Value = 5 },
-        new DataItem { Month = "May", Value = 2 },
-        new DataItem { Month = "June", Value = 3 },
-        new DataItem { Month = "July", Value = 10 }
-    };
-
-    protected override async Task OnAfterRenderAsync(bool firstRender)
-    {
-        if (firstRender)
-        {
-            var labels = Data.Select(d => d.Month).ToArray();
-            var values = Data.Select(d => d.Value).ToArray();
-            await JS.InvokeVoidAsync("createPlotlyChart", labels, values);
-        }
+        Data.Add(new MyData { Category = "Jan", NetProfit = 12, Revenue = 33 });
+        Data.Add(new MyData { Category = "Feb", NetProfit = 43, Revenue = 42 });
+        Data.Add(new MyData { Category = "Mar", NetProfit = 112, Revenue = 23 });
     }
 
-    public class DataItem
+    public class MyData
     {
-        public string Month { get; set; }
-        public int Value { get; set; }
+        public string Category { get; set; }
+        public int NetProfit { get; set; }
+        public int Revenue { get; set; }
     }
-} *@
+}
