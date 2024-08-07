@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{5CEEB930-4803-423A-AAB1-D073674792EE}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\miles95.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5CEEB930-4803-423A-AAB1-D073674792EE}|BlazorApp\\BlazorApp.csproj|c:\\users\\kvist\\documents\\github\\tomtemplateapi-mdotkvist\\blazorapp\\blazorapp\\wwwroot\\charts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5CEEB930-4803-423A-AAB1-D073674792EE}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\wwwroot\\charts.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CEEB930-4803-423A-AAB1-D073674792EE}|BlazorApp\\BlazorApp.csproj|c:\\users\\kvist\\documents\\github\\tomtemplateapi-mdotkvist\\blazorapp\\blazorapp\\components\\pages\\charts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5CEEB930-4803-423A-AAB1-D073674792EE}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\components\\pages\\charts.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5CEEB930-4803-423A-AAB1-D073674792EE}|BlazorApp\\BlazorApp.csproj|c:\\users\\kvist\\documents\\github\\tomtemplateapi-mdotkvist\\blazorapp\\blazorapp\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CEEB930-4803-423A-AAB1-D073674792EE}|BlazorApp\\BlazorApp.csproj|solutionrelative:blazorapp\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,13 +54,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Charts.js",
+              "DocumentMoniker": "C:\\Users\\kvist\\Documents\\GitHub\\tomtemplateapi-MdotKvist\\BlazorApp\\BlazorApp\\wwwroot\\Charts.js",
+              "RelativeDocumentMoniker": "BlazorApp\\wwwroot\\Charts.js",
+              "ToolTip": "C:\\Users\\kvist\\Documents\\GitHub\\tomtemplateapi-MdotKvist\\BlazorApp\\BlazorApp\\wwwroot\\Charts.js",
+              "RelativeToolTip": "BlazorApp\\wwwroot\\Charts.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-07T11:11:45.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Charts.razor",
+              "DocumentMoniker": "C:\\Users\\kvist\\Documents\\GitHub\\tomtemplateapi-MdotKvist\\BlazorApp\\BlazorApp\\Components\\Pages\\Charts.razor",
+              "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Charts.razor",
+              "ToolTip": "C:\\Users\\kvist\\Documents\\GitHub\\tomtemplateapi-MdotKvist\\BlazorApp\\BlazorApp\\Components\\Pages\\Charts.razor",
+              "RelativeToolTip": "BlazorApp\\Components\\Pages\\Charts.razor",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAgwCYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-07T11:05:00.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\kvist\\Documents\\GitHub\\tomtemplateapi-MdotKvist\\BlazorApp\\BlazorApp\\Program.cs",
               "RelativeDocumentMoniker": "BlazorApp\\Program.cs",
               "ToolTip": "C:\\Users\\kvist\\Documents\\GitHub\\tomtemplateapi-MdotKvist\\BlazorApp\\BlazorApp\\Program.cs",
               "RelativeToolTip": "BlazorApp\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwA4AAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-06T11:56:57.297Z",
               "EditorCaption": ""
@@ -65,14 +99,14 @@
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Miles95.razor",
               "ToolTip": "C:\\Users\\kvist\\Documents\\GitHub\\tomtemplateapi-MdotKvist\\BlazorApp\\BlazorApp\\Components\\Pages\\Miles95.razor",
               "RelativeToolTip": "BlazorApp\\Components\\Pages\\Miles95.razor",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAADEAAAAjAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAQAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-06T11:10:35.202Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ApiService.cs",
               "DocumentMoniker": "C:\\Users\\kvist\\Documents\\GitHub\\tomtemplateapi-MdotKvist\\BlazorApp\\BlazorApp\\ApiService.cs",
               "RelativeDocumentMoniker": "BlazorApp\\ApiService.cs",
@@ -85,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\Users\\kvist\\Documents\\GitHub\\tomtemplateapi-MdotKvist\\BlazorApp\\BlazorApp\\Components\\Layout\\NavMenu.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Layout\\NavMenu.razor",
@@ -93,11 +127,12 @@
               "RelativeToolTip": "BlazorApp\\Components\\Layout\\NavMenu.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T10:43:35.837Z"
+              "WhenOpened": "2024-08-06T10:43:35.837Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Weather.razor",
               "DocumentMoniker": "C:\\Users\\kvist\\Documents\\GitHub\\tomtemplateapi-MdotKvist\\BlazorApp\\BlazorApp\\Components\\Pages\\Weather.razor",
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Weather.razor",
@@ -105,11 +140,12 @@
               "RelativeToolTip": "BlazorApp\\Components\\Pages\\Weather.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-06T10:42:17.427Z"
+              "WhenOpened": "2024-08-06T10:42:17.427Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\kvist\\Documents\\GitHub\\tomtemplateapi-MdotKvist\\BlazorApp\\BlazorApp\\appsettings.json",
               "RelativeDocumentMoniker": "BlazorApp\\appsettings.json",
@@ -117,7 +153,8 @@
               "RelativeToolTip": "BlazorApp\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-06T10:43:01.375Z"
+              "WhenOpened": "2024-08-06T10:43:01.375Z",
+              "EditorCaption": ""
             }
           ]
         }
