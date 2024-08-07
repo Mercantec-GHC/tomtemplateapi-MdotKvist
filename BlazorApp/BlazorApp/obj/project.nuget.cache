@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6I6+034/GrHZxIesJgJEGpsxUx7HTtdJG4E87KChHhF0a+N9U/WmnwimNjHmGPQXHbj/Df6NVWoPOTb70WjCcA==",
+  "dgSpecHash": "6CyZzvzzuMmMa5Eg6husl95XjT1E5uD2alfDBnGZKVjgnOid+9+wCQ9/Weu4/HuV5WsTxFA558/HxWBYwuicMA==",
   "success": true,
   "projectFilePath": "C:\\Users\\kvist\\Documents\\GitHub\\tomtemplateapi-MdotKvist\\BlazorApp\\BlazorApp\\BlazorApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\kvist\\.nuget\\packages\\microsoft.aspnetcore.components.webassembly.server\\8.0.7\\microsoft.aspnetcore.components.webassembly.server.8.0.7.nupkg.sha512",
     "C:\\Users\\kvist\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []

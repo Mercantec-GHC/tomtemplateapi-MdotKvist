@@ -1,41 +1,53 @@
 ﻿@page "/miles95"
 @rendermode InteractiveServer
-
+@inject HttpClient Http
+@using System.Text.Json
+@using System.Text.Json.Serialization
 
 <PageTitle>Miles95</PageTitle>
 
 <button @onclick="FetchData">Get Data</button>
 
-
-@if (json != null)
+@if (datas != null)
 {
-    <h3>Date: @json.date</h3>
-    <p>Price: @json.price</p>
+    @foreach (var data in datas)
+    {
+        <h3>Date: @data.Date</h3>
+        <p>Price: @data.Price</p>
+    }
 }
 
 @code {
-    using System.Net.Http.Json;
-    using System.Text.Json;
-    public Todo? json;
-
-    [Inject]
-    public HttpClient Http { get; set; } = default!;
-    
+    public List<Data>? datas;
 
     public async Task FetchData()
     {
         Console.WriteLine("FetchData called");
 
         // Fetch the raw JSON as a string for debugging
-        var json = await Http.GetStringAsync("https://magsapi.onrender.com/api/miles95");
+        string json = await Http.GetStringAsync("https://magsapi.onrender.com/api/miles95");
         Console.WriteLine($"Raw JSON: {json}");
+
+        try
+        {
+            datas = JsonSerializer.Deserialize<List<Data>>(json);
+            Console.WriteLine("Deserialization successful");
+        }
+        catch (JsonException ex)
+        {
+            Console.WriteLine($"Deserialization error: {ex.Message}");
+            Console.WriteLine($"Stack Trace: {ex.StackTrace}");
+        }
 
         StateHasChanged();
     }
 
-    public class Todo
-    {   
-        public string date { get; set; }
-        public float price { get; set; }
+    public class Data
+    {
+        [JsonPropertyName("Date")]
+        public string Date { get; set; }
+
+        [JsonPropertyName("Price")]
+        public string Price { get; set; }
     }
 }
