@@ -68,7 +68,7 @@
               "RelativeDocumentMoniker": "BlazorApp\\Components\\Pages\\Diesel.razor",
               "ToolTip": "C:\\Users\\kvist\\Documents\\GitHub\\tomtemplateapi-MdotKvist\\BlazorApp\\BlazorApp\\Components\\Pages\\Diesel.razor",
               "RelativeToolTip": "BlazorApp\\Components\\Pages\\Diesel.razor",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAACUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-08T10:20:06.057Z",
               "IsPinned": true,
@@ -85,8 +85,7 @@
               "ViewState": "AQIAAAoAAAAAAAAAAAAAABwAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-06T11:10:35.202Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -99,8 +98,7 @@
               "ViewState": "AQIAABIAAAAAAAAAAAAAACkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-08T11:10:25.012Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
