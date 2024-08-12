@@ -141,6 +141,7 @@ else
         {
             return await Http.GetStringAsync(url);
         }
+
         catch (Exception ex)
         {
             Console.WriteLine($"Error fetching data from {url}: {ex.Message}");
